@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+   body {
+       background-image: url("paper.jpg");
+   }
+
+
+
+
+</style>
+<head>
+
+    <meta charset="UTF-8">
+    <title>KK foods</title>
+</head>
+
+
+<h3 style="color: gold">Vennligst velg din bestilling</h3>
+    <form action="Registrering%20av%20bestilling.html">
+        <input type="text" name="navn" placeholder="Hva er ditt navn?" required><br>
+        <label style="color: gold">Hva ønsker du av mat?</label>
+        <input id="kebab" type="radio" value="Kebab" name="Mat"><label style="color: gold" for="kebab">Kebab</label>
+        <input id="pizza" type="radio" value="pizza" name="Mat"><label style="color: gold" for="pizza">Pizza</label>
+        <input id="gyros" type="radio" value="gyros" name="Mat"><label style="color: gold" for="gyros">Gyros</label>
+        <input id="burger" type="radio" value="burger" name="Mat"><label style="color: gold" for="burger">Burger</label>
+        <input id="løvbiff" type="radio" value="løvbiff" name="Mat"><label style="color: gold" for="løvbiff">Løvbiff</label><br>
+
+
+        <select name="Drikke" required>
+            <option value="">Hva ønsker du å drikke?</option>
+            <option value="Ingenting">Ingenting</option>
+            <option value="cola">Cola</option>
+            <option value="sprite">Sprite</option>
+            <option value="fanta">Fanta</option>
+            <option value="villa">Villa</option>
+
+
+        </select>
+        <br>
+        <select name="Tilbehør" required>
+            <option value="">Ønsker de tilbehør?</option>
+            <option value="nei">Nei</option>
+            <option value="Pommesfrites">Pommesfrites</option>
+            <option value="salat">Liten salat med dressing</option>
+            <option value="ekstra saus">Ekstra saus</option>
+            <option value="ekstra kjøtt">Ekstra kjøtt</option>
+
+
+
+        </select>
+        <br>
+
+        <button type="submit">Send inn bestilling!</button>
+        <br>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
